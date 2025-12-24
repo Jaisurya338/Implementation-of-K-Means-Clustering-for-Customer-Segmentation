@@ -1,25 +1,6 @@
 # Implementation-of-K-Means-Clustering-for-Customer-Segmentation
 
-## AIM:
-To write a program to implement the K Means Clustering for Customer Segmentation.
 
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
-
-## Algorithm
-- Collect Data
-- Gather customer information (e.g., age, income, spending score, purchase history).
-- Clean the data (remove missing values, normalize if needed).
-- Choose Number of Clusters (k)
-- Decide how many customer groups you want (e.g., 3 segments: low spenders, medium spenders, high spenders).
-- Often chosen using the "Elbow Method" (plotting cost vs. k).
-- Initialize Centroids
-- Randomly pick k points from the dataset as the starting "centers" of clusters.
-- Assign Customers to Nearest Cluster
-- For each customer, calculate the distance (usually Euclidean distance) to each centroid.
-- Assign the customer to the cluster with the closest centroid.
-- Update Centroids
 - After assignment, recalculate the centroid of each cluster:
 - New centroid = average of all points in that cluster.
 - Repeat Steps 4 & 5
